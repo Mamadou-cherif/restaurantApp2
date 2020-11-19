@@ -1,0 +1,41 @@
+<div id="Welcome">
+    <!---Start navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar fixed-top  navbar-light bg-light">
+       <a class="navbar-brand" routerLink="homeImage">
+          <img src="assets/images/logo.png" width="50" height="50" class="d-inline-block" alt=""> Italian Restaurant
+       </a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+       </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" routerLink="homeImage">Welcome</a>
+                </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="restaurant">Restaurant</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="reservation">Reservation</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="location">Our Location</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="blog">blog</a>
+            </li>
+              <li class="nav-item">
+
+                  <a routerLink="#" class="language" rel="it-IT"><img src="assets/images/italy.ico" class="flag" alt="Italiano"></a>
+                  <a routerLink="homeImage" class="language" rel="en-En"><img src="assets/images/english.ico" class="flag" alt="English"></a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+  <!--- End Navigation Bar -->
+
+  <router-outlet></router-outlet>
+</div>
